@@ -68,7 +68,7 @@ elif [[ "$#" == 1 ]]; then
     else
         errorMsg
     fi
-elif [[ "$#" > 6 ]]; then
+elif [[ "$#" > 7 ]]; then
     errorMsg
 fi
 if [[ "$#" -ge 2 ]]; then
